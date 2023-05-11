@@ -5,33 +5,36 @@
     <title>Airlines!!</title>
     <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
-    <nav>
+  <header>
       <h1>Puerto Rico Airlines</h1>
-      <a href="">Home</a>
-      <a href="">Flights</a>
-      <a href="">Support</a>
-      <a href="">Login</a>
-    </nav>
-    <div class="services">
-      <div id="flights">
-        <h2>Flights</h2>
-        Come check out our sweet flights! Direct flights available daily!
-        <button id="let's go">Let's go</button>
-      </div>
-      <div id="group trips">
-        <h2>Group Trips</h2>
-        We offer great group rates! For families with 4 members to huge gatherings with 50+!
-        <button id="group rates">Group Rates</button>
-      </div>
-      <div id="discount flights">
-        <h2>Discount Flights</h2>
-        <button id="jump in">Jump In</button>
-      </div>
-      <div id="about us">
-        <h2>About Us</h2>
-        <button id="learn more">Learn More</button>
-      </div>
+      <nav>
+        <button id="home-button" class="navbutton">Home</button>
+        <button id="flights-button" class="navbutton">Flights</button>
+        <button id="support-button" class="navbutton">Support</button>
+        <button id="login-button" class="navbutton">Login</button>
+      </nav>
+  </header>
+  <body>
+    <div id="flights" class="container">
+      <h2>Flights</h2>
+      <p>Come check out our sweet flights! Direct flights available daily!</p>
+      <button id="let's go">Let's go</button>
+    </div>
+    <div id="group trips" class="container">
+      <h2>Group Trips</h2>
+      <p>We offer great group rates! For families with 4 members to huge gatherings with 50+!</p>
+      <button id="group rates">Group Rates</button>
+    </div>
+    <div id="discount flights" class="container">
+      <h2>Discount Flights</h2>
+      <p>Discount flights available to individuals! Single chair filler tickets for low rates!</p>
+      <button id="jump in">Jump In</button>
     </div>
   </body>
+  <footer>
+    <div id="about us" class="container">
+      <h2>About Us</h2>
+      <button id="learn more">Learn More</button>
+    </div>
+  </footer>
 </html>

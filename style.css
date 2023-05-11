@@ -3,3 +3,42 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #FFDBAA;
+  color: #553100;
+  text-transform: uppercase;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #D4A76A;
+  margin: 0;
+}
+
+footer {
+  background-color: #D4A76A;
+}
+
+button {
+  background-color: #805215;
+  color: white;
+  font-weight: bold;
+}
+
+.navbutton {
+  text-transform: uppercase;
+}
+
+.container {
+  background-color: white;
+  display: inline-block;
+  overflow-wrap:normal;
+}
+
